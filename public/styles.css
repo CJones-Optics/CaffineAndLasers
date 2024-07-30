@@ -1,8 +1,3 @@
-/*  CHECK CUSTOM -CSS is how you can add style to your website, such as colors, fonts, and positioning of your
-   HTML content. To learn how to do something, just try searching Google for questions like
-   "how to change link color." */
-
-
 
 :root {
     --header-image: url('Assets/mandelbrot_gap_pink.png');
@@ -11,37 +6,44 @@
 }
 
 @font-face {
-    font-family: Nunito;
-    src: url('https://sadhost.neocities.org/fonts/Nunito-Regular.ttf');
+    font-family: AtkinsenHyperlegible;
+    src: url("/public/fonts/AtkinsonHyperlegible-Regular.ttf");
 }
 
+
 @font-face {
-    font-family: Nunito;
-    src: url('https://sadhost.neocities.org/fonts/Nunito-Bold.ttf');
+    font-family: AtkinsenHyperlegible;
+    src: url("/public/fonts/AtkinsonHyperlegible-Bold.ttf");
     font-weight: bold;
 }
 
 @font-face {
-    font-family: Nunito;
-    src: url('https://sadhost.neocities.org/fonts/Nunito-Italic.ttf');
+    font-family: AtkinsenHyperlegible;
+    src: url("/public/fonts/AtkinsonHyperlegible-Italic.ttf");
     font-style: italic;
 }
 
 @font-face {
-    font-family: Nunito;
-    src: url('https://sadhost.neocities.org/fonts/Nunito-BoldItalic.ttf');
+    font-family: AtkinsenHyperlegible;
+    src: url("/public/fonts/AtkinsonHyperlegible-BoldItalic.ttf");
     font-style: italic;
     font-weight: bold;
 }
 
 body {
-    font-family: 'Nunito', sans-serif;
+    font-family: 'AtkinsenHyperlegible', sans-serif;
     margin: 0;
     background-color: #08031A;
     background-size: 65px;
     color: #4c4f69;
     background-image: var(--body-bg-image);
 }
+
+main {
+    flex: 3 1 60%;
+    width: 100%; /* Ensure main section takes up available space */
+}
+
 
 * {
     box-sizing: border-box;
