@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<rss version="2.0">
+<channel>
+  <title>Caffine And Lasers</title>
+  <description>Musings Powered By Caffine and Lasers</description>
+  <link>https://caffineandlasers.neocities.org</link>
+  <lastBuildDate>
+    Thur, 8 Aug 2024 09:58 +0100
+  </lastBuildDate>
+  <ttl>20000</ttl>
+
+<item>
+  <title>Perceptibility</title>
+  <description>
+  What does Descartes, Buddah and Heisenburg have in common? They all observe the observer.
+  </description>
+  <link>https://caffineandlasers.neocities.org/blogs/Perceptibility</link>
+  <pubDate>
+    Mon, 5 August 2024 09:58 +0100
+  </pubDate>
+</item>
+
+</channel>
+</rss>
