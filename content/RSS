@@ -1,0 +1,64 @@
+<h1 id="what-is-rss-and-why-might-your-readers-want-it">1 What Is RSS
+and why might your readers want it?</h1>
+<p>The acronym for RSS is "Really Simple Syndication". Essentially, it
+is a way better method of alerting your readers to your new blog posts,
+without requiring an email address. ## 1.1 How it works Your users will
+have an RSS Reader. This program keeps a list of webpages to check every
+refresh period, and presents all the new articles to the user. ## 1.2
+Why not use email? - "I wish I had more emails in my inbox " - "I love
+signing up for things and giving my email to strangers" - "I've never
+had my email address leaked in a data breach" RSS beats email because it
+makes more sense. The user lets YOU know when they want to read, not the
+other way around. You don't need a long list of email addresses, and
+quit frankly you don't want one.</p>
+<h1 id="how-to-set-it-up">2 How to set it up:</h1>
+<p>All you need to setup an RSS feed is 1. Create a feed page for your
+website 2. Provide a link to it 3. Update the feed every time you add a
+new blogpost The users RSS reader handles the rest ## 2.1 Creating the
+Feed Page:</p>
+<p>Here is a template on how your RSS feed doc should look:</p>
+<div class="sourceCode" id="cb1"><pre
+class="sourceCode xml"><code class="sourceCode xml"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="fu">&lt;?xml</span><span class="ot"> version=</span><span class="st">&quot;1.0&quot;</span><span class="ot"> encoding=</span><span class="st">&quot;UTF-8&quot;</span> <span class="fu">?&gt;</span></span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">rss</span><span class="ot"> version=</span><span class="st">&quot;2.0&quot;</span>&gt;</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a>&lt;<span class="kw">channel</span>&gt;</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">title</span>&gt;{The Name of your Blog}&lt;/<span class="kw">title</span>&gt;</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">description</span>&gt;{A short description of your blog}&lt;/<span class="kw">description</span>&gt;</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">link</span>&gt;{Link to your homepage}&lt;/<span class="kw">link</span>&gt;</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">lastBuildDate</span>&gt;</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a>    {Date and time in RFC 2822 format}</span>
+<span id="cb1-9"><a href="#cb1-9" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">lastBuildDate</span>&gt;</span>
+<span id="cb1-10"><a href="#cb1-10" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">ttl</span>&gt;{Number of minutes between refreshes}&lt;/<span class="kw">ttl</span>&gt;</span>
+<span id="cb1-11"><a href="#cb1-11" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-12"><a href="#cb1-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-13"><a href="#cb1-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-14"><a href="#cb1-14" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb1-15"><a href="#cb1-15" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">channel</span>&gt;</span>
+<span id="cb1-16"><a href="#cb1-16" aria-hidden="true" tabindex="-1"></a>&lt;/<span class="kw">rss</span>&gt;</span></code></pre></div>
+<p>RFC 2822 Timestamps look like this:
+<code>Thu, 08 Aug 2024 23:52:25 +0000</code> And can easily be generated
+from this website: https://timestampgenerator.com/</p>
+<p>The <code>ttl</code> instructs how often an RSS reader should wait
+between refreshing the page. E.g. if you set it to 60, each RSS reader
+will refresh your page once per hour. I rarely update my blog. So I have
+it set to 1440 so it updates once a day, so that my webpage doesn't get
+hammered with too much traffic.</p>
+<h2 id="adding-articles-to-the-feed">2.2 Adding Articles to the
+feed</h2>
+<p>The template for each item:</p>
+<div class="sourceCode" id="cb2"><pre
+class="sourceCode xml"><code class="sourceCode xml"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a>  &lt;<span class="kw">item</span>&gt;</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">title</span>&gt;{Article Title}&lt;/<span class="kw">title</span>&gt;</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">description</span>&gt;</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a>      {A short description or preview of the article}</span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>    &lt;/<span class="kw">description</span>&gt;</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">link</span>&gt;{Link to the the web page of teh article}&lt;/<span class="kw">link</span>&gt;</span>
+<span id="cb2-7"><a href="#cb2-7" aria-hidden="true" tabindex="-1"></a>    &lt;<span class="kw">pubDate</span>&gt;</span>
+<span id="cb2-8"><a href="#cb2-8" aria-hidden="true" tabindex="-1"></a>      {Time and date in RFC 2822 format}</span>
+<span id="cb2-9"><a href="#cb2-9" aria-hidden="true" tabindex="-1"></a>    &lt;/<span class="kw">pubDate</span>&gt;</span>
+<span id="cb2-10"><a href="#cb2-10" aria-hidden="true" tabindex="-1"></a>  &lt;/<span class="kw">item</span>&gt;</span></code></pre></div>
+<p>Each item goes in between the <code>ttl</code> tag and the
+<code>&lt;\channel&gt;</code> tag. Every time you add an article, don't
+forget to update the <code>&lt;lastBuildDate&gt;</code> tag.</p>
+<h2 id="putting-it-all-together">2.3 Putting it all together:</h2>
+<p>Check out MY Rss for a full example. You can delete old articles and
+keep it at fixed length. This isn't strictly necessary though.</p>
