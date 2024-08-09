@@ -24,8 +24,8 @@
      inkscape:deskcolor="#d1d1d1"
      inkscape:document-units="mm"
      inkscape:zoom="1.0141844"
-     inkscape:cx="136.06993"
-     inkscape:cy="206.56994"
+     inkscape:cx="136.56294"
+     inkscape:cy="206.56993"
      inkscape:window-width="1920"
      inkscape:window-height="1011"
      inkscape:window-x="0"
@@ -98,10 +98,7 @@
        y="59.078026"
        id="text4"><tspan
          sodipodi:role="line"
-         id="tspan4"
-         style="font-style:normal;font-variant:normal;font-weight:bold;font-stretch:normal;font-size:8.46667px;font-family:'Atkinson Hyperlegible';-inkscape-font-specification:'Atkinson Hyperlegible, Bold';font-variant-ligatures:normal;font-variant-caps:normal;font-variant-numeric:normal;font-variant-east-asian:normal;fill:#dce0e8;fill-opacity:1;stroke:none;stroke-width:0.5;stroke-opacity:1"
-         x="38.393253"
-         y="59.078026">Caffine &amp; Lasers</tspan></text>
+         id="tspan1">Caffeine &amp; Lasers</tspan></text>
     <circle
        style="display:none;fill:none;fill-opacity:1;stroke:#e64553;stroke-width:1.5555;stroke-linecap:round;stroke-dasharray:none;stroke-opacity:1;paint-order:markers fill stroke"
        id="path8"

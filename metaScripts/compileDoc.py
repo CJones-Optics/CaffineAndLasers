@@ -10,12 +10,11 @@
 import os
 import sys
 import argparse
+import html
 
-keys = {
-    'HEADER': 'templates/HEADER.html',
-    'FOOTER': 'templates/FOOTER.html',
-    'BODY': None
-}
+
+
+
 
 def parse_args():
     parser = argparse.ArgumentParser(description='Compile a document from a template and content file.')
@@ -24,24 +23,32 @@ def parse_args():
     parser.add_argument('output', help='The output directory to save the compiled document.')
     return parser.parse_args()
 
-def parseTemplate(templatePath):
-    # Searches the file for keys denoted by {{KEY}}
-    # and substitutes them with the content of the
-    # file specified by the key.
-    with open(templatePath, 'r') as templateFile:
-        template = templateFile.read()
-        for key in keys:
-            if key != 'BODY':
-                template = template.replace('{{'+key+'}}', keys[key])
-    return template
+def returnHtml(path):
+    with open(path,'r',encoding='utf-8') as file:
+        data = file.read()
+    # Sanitize it
+    # data =  html.escape(data)
+    return data
 
-def compileDocument(contentPath, templatePath, outputPath):
+def compileDocument(templatePath, outputPath, keys):
     # Parse the template
-    template = parseTemplate(templatePath)
 
-    # Read the content file
-    with open(contentPath, 'r') as contentFile:
-        keys['BODY'] = contentFile.read()
+    # Read the template file
+    with open(templatePath, 'r', encoding='utf-8') as templateFile:
+        template = templateFile.read()
+
+    # Now open the template doc, search for keys
+    # and replace with the file content of the
+    # path in the keys dictionary
+    for key, path in keys.items():
+        # Get the content of the file
+        content = returnHtml(path)
+        # Replace the key with the content
+        template = template.replace(f'{{{key}}}', content)
+
+
+
+
 
     # Write the compiled document to the output file
     with open(outputPath, 'w') as outputFile:
@@ -49,7 +56,14 @@ def compileDocument(contentPath, templatePath, outputPath):
 
 def main():
     args = parse_args()
-    compileDocument(args.content, args.template, args.output)
+
+    keys = {
+        'HEADER': 'templates/HEADER.html',
+        'FOOTER': 'templates/FOOTER.html',
+        'BODY': args.content,
+    }
+
+    compileDocument(args.template, args.output,keys)
 
 if __name__ == '__main__':
     main()
