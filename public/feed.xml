@@ -7,7 +7,7 @@
   <lastBuildDate>
     Thur, 8 Aug 2024 09:58 +0100
   </lastBuildDate>
-  <ttl>20000</ttl>
+  <ttl>1440</ttl>
 
 <item>
   <title>Observing The Observer: Perception in Philosphy, Psychology and Physics.</title>
@@ -23,23 +23,24 @@
 <item>
   <title>A Introduction to LCOS Spatial Light Modulators</title>
   <description>
-  A short blog post I wrote a while back about LCOS SLMs.  
+  A short blog post I wrote a while back about LCOS SLMs.
   </description>
   <link>https://caffineandlasers.neocities.org/blogs/IntroToLCOS</link>
   <pubDate>
     Thur, 1 August 2024 09:58 +0100
   </pubDate>
+</item>
 
 <item>
   <title>The Anatomy Of Espresso</title>
   <description>
-  How does Espresso work? I try and break down what those coffee nerds are talking about.  
+  How does Espresso work? I try and break down what those coffee nerds are talking about.
   </description>
   <link>https://caffineandlasers.neocities.org/blogs/20240725T075059</link>
   <pubDate>
     Friday, 26 July 2024 09:58 +0100
   </pubDate>
 </item>
-</item>
+
 </channel>
 </rss>
