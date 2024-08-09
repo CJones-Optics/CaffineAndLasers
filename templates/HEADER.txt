@@ -60,5 +60,3 @@
                 <!-- <li><a href="/sadgrl/projects/ideas/" target="_blank">Site Ideas</a></li> -->
             </ul>
         </aside>
-    </div>
-</div>

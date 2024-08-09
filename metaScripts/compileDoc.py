@@ -44,7 +44,7 @@ def compileDocument(templatePath, outputPath, keys):
         # Get the content of the file
         content = returnHtml(path)
         # Replace the key with the content
-        template = template.replace(f'{{{key}}}', content)
+        template = template.replace(f'[[{key}]]', content)
 
 
 
@@ -58,8 +58,8 @@ def main():
     args = parse_args()
 
     keys = {
-        'HEADER': 'templates/HEADER.html',
-        'FOOTER': 'templates/FOOTER.html',
+        'HEADER': 'templates/HEADER.txt',
+        'FOOTER': 'templates/FOOTER.txt',
         'BODY': args.content,
     }
 
