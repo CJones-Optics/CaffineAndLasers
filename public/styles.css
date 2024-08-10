@@ -4,7 +4,7 @@
     --content: #c9a2e2;
 }
 
-@font-face {
+/* @font-face {
     font-family: AtkinsenHyperlegible;
     src: url("/public/fonts/AtkinsonHyperlegible-Regular.ttf");
 }
@@ -26,7 +26,7 @@
     src: url("/public/fonts/AtkinsonHyperlegible-BoldItalic.ttf");
     font-style: italic;
     font-weight: bold;
-}
+} */
 
 body {
     font-family: "AtkinsenHyperlegible", sans-serif;
@@ -61,12 +61,18 @@ main {
     height: 150px;
     background-image: var(--header-image);
     background-size: 100%;
+    border-radius: 20px;
+    padding: 10px;
 }
 
 #navbar {
     height: 40px;
-    background-color: #bcc0cc;
+    background-color: #dce0e8;
+    border: 5px #8839ef dotted;
+    border-radius: 20px;
     width: 100%;
+    padding-bottom: 45px;
+    margin-top: 10px;
 }
 
 #navbar ul {
@@ -79,10 +85,15 @@ main {
 
 #navbar li {
     padding-top: 10px;
+    padding-bottom: 10px;
 }
 
 #navbar li a {
     color: #8839ef;
+    background-color: #e6e9ef;
+    border: 1px solid #8839ef;
+    border-radius: 10px;
+    padding: 5px;
     font-weight: 800;
     text-decoration: none;
 }
@@ -97,21 +108,28 @@ main {
 }
 
 aside {
-    background-color: #939ab7;
+    background-color: #e6e9ef;
+    border: 5px #8839ef dotted;
+    border-radius: 20px;
     width: 200px;
     padding: 20px;
     font-size: smaller;
+    margin: 10px;
 }
 
 main {
-    background-color: #ccd0da;
+    background-color: #eff1f5;
+    border: 5px #8839ef dotted;
+    border-radius: 20px;
     flex: 1;
     padding: 20px;
     order: 2;
+    margin: 10px;
 }
 
 #leftSidebar {
     order: 1;
+
 }
 
 #rightSidebar {
@@ -119,11 +137,15 @@ main {
 }
 
 footer {
-    background-color: #13092d;
+    background-color: #eff1f5;
     width: 100%;
     height: 40px;
     padding: 10px;
     text-align: center;
+    border: 5px #dc8a78 dotted;
+    border-radius: 20px;
+    padding-bottom: 30px;
+    margin: 5px;
 }
 
 h1 {
@@ -145,7 +167,7 @@ strong {
 }
 
 .box {
-    background-color: #bcc0cc;
+    background-color: #eff1f5;
     border: 1px solid #ed64f5;
     padding: 10px;
 }
@@ -153,7 +175,7 @@ strong {
 #topBar {
     width: 100%;
     height: 30px;
-    padding: 10px;
+    padding: 5px;
     font-size: smaller;
     background-color: #939ab7;
 }
