@@ -52,8 +52,7 @@ main {
 }
 
 #container a {
-    color: #ed64f5;
-    font-weight: bold;
+    color: #8839eed64f5    font-weight: bold;
 }
 
 #header {
@@ -83,13 +82,13 @@ main {
 }
 
 #navbar li a {
-    color: #ea76cb;
+    color: #8839ef;
     font-weight: 800;
     text-decoration: none;
 }
 
 #navbar li a:hover {
-    color: #a49cba;
+    color: #8839ef;
     text-decoration: underline;
 }
 
