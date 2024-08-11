@@ -1,62 +1,45 @@
 <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Caffine And Lasers</title>
-    <link rel="stylesheet" href="/styles.css" />
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Caffeine And Lasers</title>
+    <link rel="stylesheet" href="/styles.css">
 </head>
 
-<div id="container">
-    <div id="header"></div>
-    <div id="headerArea">
-        <nav id="navbar" style="margin-bottom: 0px">
-            <ul>
-                <li><a href="/index.html">Home</a></li>
-                <li><a href="/blog.html">Blog</a></li>
-                <li><a href="/publications.html">Publications</a></li>
-                <li><a href="/contact.html">Contact Me</a></li>
-                <!-- <li><a href="#">Link</a></li> -->
-                <!-- <li><a href="#">Link</a></li> -->
-            </ul>
-        </nav>
-    </div>
 
-    <div id="flex">
-        <aside id="leftSidebar" style="margin-right: 0px">
-            <h2>Updates</h2>
-            <div class="box">
-                <p>What am I doing these days!</p>
-                <ul style="padding-left: 10px">
-                    <li>July 2023 - Started my PhD</li>
-                    <li>
-                        2024 - Side Huslte - Physics Education and Outreach At
-                        USYD
-                    </li>
-                    <li>July 2024 - Started this website!</li>
-                </ul>
-            </div>
-            <!-- <h2>Hi there!</h2> -->
-            <h2>Find Me Online</h2>
-            <ul>
-                <li>
-                    <a href="https://aus.social/@AuntyRed/" target="_blank"
-                        >Mastodon</a
-                    >
-                </li>
-                <li>
-                    <a
-                        href="https://www.youtube.com/@CameronJones-dj8mml"
-                        target="_blank"
-                        >YouTube</a
-                    >
-                </li>
-                <li>
-                    <a
-                        href="https://www.linkedin.com/in/cameron-jones-sydney/"
-                        target="_blank"
-                        >LinkedIn</a
-                    >
-                </li>
-                <!-- <li><a href="/sadgrl/webmastery/downloads/fonts.html" target="_blank">Fonts</a></li> -->
-                <!-- <li><a href="/sadgrl/projects/ideas/" target="_blank">Site Ideas</a></li> -->
-            </ul>
-        </aside>
+
+
+<div id="container"><div id="header"></div>
+    <div id="headerArea">
+    <nav id="navbar" style="margin-bottom: 0px;"><ul>
+            <li><a href="/index.html">Home</a></li>
+            <li><a href="/blog.html">Blog</a></li>
+            <li><a href="/Resources.html">Resources</a></li>
+            <li><a href="/publications.html">Publications</a></li>
+            <li><a href="/Resume.html">Resume</a></li>
+            <li><a href="/contact.html">Contact Me</a></li>
+</ul></nav></div>
+
+
+
+            <div id="flex">
+                <aside id="leftSidebar" >
+                    <h2>Updates</h2>
+                    <div class="box">
+                        <p>What am I doing these days!</p>
+                        <ul style="padding-left:10px;">
+                            <li>July 2023 - Started my PhD </li>
+                            <li>2024 - Side Huslte - Physics Education and Outreach At USYD</li>
+                            <li>July 2024 -  Started this website!</li>
+                        </ul>
+                    </div>
+                    <!-- <h2>Hi there!</h> -->
+                    <h2>Find Me Online</h2>
+                    <ul>
+                        <li><a href="https://aus.social/@AuntyRed/" target="_blank">Mastodon</a>
+                        </li><li><a href="https://www.youtube.com/@CameronJones-dj8mml" target="_blank">YouTube</a></li>
+                        <li><a href="https://www.linkedin.com/in/cameron-jones-sydney/" target="_blank">LinkedIn</a></li>
+                        <li><a href="https://github.com/CJones-Optics/" target="_blank">GitHub</a></li>
+                        <!-- <li><a href="/sadgrl/webmastery/downloads/fonts.html" target="_blank">Fonts</a></li> -->
+                        <!-- <li><a href="/sadgrl/projects/ideas/" target="_blank">Site Ideas</a></li> -->
+                    </ul>
+                </aside>
