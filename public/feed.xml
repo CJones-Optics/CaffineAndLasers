@@ -1,67 +1,40 @@
-<?xml version="1.0" encoding="UTF-8" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <rss version="2.0">
 <channel>
   <title>Caffeine And Lasers</title>
   <description>Musings Powered By Caffeine and Lasers</description>
   <link>https://Caffeineandlasers.neocities.org</link>
-  <lastBuildDate>
-    Sun, 11 Aug 2024 19:55:12 +1000
-  </lastBuildDate>
+  <lastBuildDate>Sun, 11 Aug 2024 19:55:12 +1000</lastBuildDate>
   <ttl>1440</ttl>
-
-<item>
-    <title>Introducing My LoFiu Radio!</title>
-    <description>
-    My latest (and first) contribution to FOSS! A LoFi Radio player.
-    </description>
+  <item>
+    <title>Introducing My LoFi Radio!</title>
+    <description>My latest (and first) contribution to FOSS! A LoFi Radio player.</description>
     <link>https://Caffeineandlasers.neocities.org/blogs/lofiRadio.html</link>
-    <pubDate>
-        Sun, 11 Aug 2024 19:55:12 +1000
-    </pubDate>
-
-<item>
-  <title>How to build your very own RSS Feed</title>
-  <description>
-  A short tutorial on building your own RSS feed.
-  </description>
-  <link>https://Caffeineandlasers.neocities.org/blogs/rss.html</link>
-  <pubDate>
-    Fri, 09 Aug 2024 04:21:01 +1000
-  </pubDate>
-</item>
-
-<item>
-  <title>Observing The Observer: Perception in Philosphy, Psychology and Physics.</title>
-  <description>
-  What does Descartes, Buddah and Heisenburg have in common? They all observe the observer.
-  </description>
-  <link>https://Caffeineandlasers.neocities.org/blogs/Perceptibility</link>
-  <pubDate>
-    Mon, 5 August 2024 09:58 +1000
-  </pubDate>
-</item>
-
-<item>
-  <title>A Introduction to LCOS Spatial Light Modulators</title>
-  <description>
-  A short blog post I wrote a while back about LCOS SLMs.
-  </description>
-  <link>https://Caffeineandlasers.neocities.org/blogs/IntroToLCOS</link>
-  <pubDate>
-    Thur, 1 August 2024 09:58 +1000
-  </pubDate>
-</item>
-
-<item>
-  <title>The Anatomy Of Espresso</title>
-  <description>
-  How does Espresso work? I try and break down what those coffee nerds are talking about.
-  </description>
-  <link>https://Caffeineandlasers.neocities.org/blogs/20240725T075059</link>
-  <pubDate>
-    Friday, 26 July 2024 09:58 +1000
-  </pubDate>
-</item>
-
+    <pubDate>Sun, 11 Aug 2024 19:55:12 +1000</pubDate>
+  </item>
+  <item>
+    <title>How to build your very own RSS Feed</title>
+    <description>A short tutorial on building your own RSS feed.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/rss.html</link>
+    <pubDate>Fri, 09 Aug 2024 04:21:01 +1000</pubDate>
+  </item>
+  <item>
+    <title>Observing The Observer: Perception in Philosphy, Psychology and Physics.</title>
+    <description>What does Descartes, Buddah and Heisenburg have in common? They all observe the observer.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/Perceptibility.html</link>
+    <pubDate>Mon, 05 Aug 2024 09:58:00 +1000</pubDate>
+  </item>
+  <item>
+    <title>A Introduction to LCOS Spatial Light Modulators</title>
+    <description>A short blog post I wrote a while back about LCOS SLMs.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/IntroToLCOS.html</link>
+    <pubDate>Thu, 01 Aug 2024 09:58:00 +1000</pubDate>
+  </item>
+  <item>
+    <title>The Anatomy Of Espresso</title>
+    <description>How does Espresso work? I try and break down what those coffee nerds are talking about.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/20240725T075059.html</link>
+    <pubDate>Fri, 26 Jul 2024 09:58:00 +1000</pubDate>
+  </item>
 </channel>
 </rss>
