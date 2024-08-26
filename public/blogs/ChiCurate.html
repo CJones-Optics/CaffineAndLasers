@@ -4,6 +4,42 @@
         <meta charset="UTF-8" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
         <title>Caffeine And Lasers</title>
+        <style>
+            .container {
+                display: flex;
+                flex-wrap: wrap;
+                align-items: center;
+                justify-content: space-between;
+                flex-direction: row-reverse;
+            }
+
+            .image-container {
+                flex: 0 0 20%;
+                max-width: 24%;
+            }
+
+            .text-container {
+                flex: 1;
+                max-width: 75%;
+            }
+
+            @media screen and (max-width: 768px) {
+                .container {
+                    flex-direction: column;
+                }
+
+                .image-container,
+                .text-container {
+                    flex: 0 0 100%;
+                    max-width: 100%;
+                }
+
+                .image-container {
+                    text-align: center;
+                    margin-bottom: 20px;
+                }
+            }
+        </style>
         <link rel="stylesheet" href="/styles.css" />
     </head>
 
@@ -30,7 +66,7 @@
                     <ul style="padding-left: 10px">
                         <li>July 2023 - Started my PhD</li>
                         <li>
-                            2024 - Side Huslte - Physics Education and Outreach
+                            2024 - Side Hustle - Physics Education and Outreach
                             At USYD
                         </li>
                         <li>July 2024 - Started this website!</li>
@@ -64,19 +100,184 @@
             </aside>
 
             <main>
-                <h1>ChiCurate</h1>
-                <h2>Your Personal ArXiv Curator</h2>
+                <div class="container">
+                    <div class="image-container">
+                        <img
+                            src="ChiCurateRound.svg"
+                            alt="ChiCurate Logo"
+                            style="width: 100%"
+                        />
+                    </div>
+                    <div class="text-container">
+                        <h1>
+                            Introducing ChiCurate: Your Personalized ArXiv Feed
+                        </h1>
+
+                        <p>
+                            In the fast-paced world of scientific research,
+                            staying up-to-date with the latest publications is
+                            crucial. However, with hundreds of papers published
+                            daily on ArXiv, finding the most relevant ones for
+                            your research can be like searching for a needle in
+                            a haystack. Enter ChiCurate, a simple tool designed
+                            to make researchers more efficient, and unearth the
+                            papers they are interested in.
+                        </p>
+                    </div>
+                </div>
+                <h2>What is ChiCurate?</h2>
+
                 <p>
-                    ChiCurate is a local application to personalise your ArXiv
-                    feed using a local LLM running on Ollama
+                    ChiCurate is an open-source tool that creates a personalized
+                    ArXiv feed tailored to your specific research interests. By
+                    leveraging the power of local Large Language Models (LLMs)
+                    and the simplicity of RSS feeds, ChiCurate ranks papers
+                    based on their relevance to your work, saving you valuable
+                    time and ensuring you never miss an important publication in
+                    your field.
                 </p>
+
+                <h2>Key Advantages</h2>
+
+                <ol>
+                    <li>
+                        <strong>Personalization</strong>: Unlike traditional RSS
+                        feeds, ChiCurate allows you to describe your research
+                        interests in plain language. The AI then uses this
+                        information to rank papers, ensuring you see the most
+                        relevant content first.
+                    </li>
+                    <li>
+                        <strong>Local Processing</strong>: ChiCurate runs on
+                        your local machine, ensuring privacy and giving you full
+                        control over the curation process.
+                    </li>
+                    <li>
+                        <strong>Open Source</strong>: The tool is open-source,
+                        allowing for community contributions and customizations
+                        to fit various research needs.
+                    </li>
+                    <li>
+                        <strong>Efficient</strong>: While it may take about 15
+                        minutes to process a day's worth of papers, you can set
+                        it up to run automatically each morning, having your
+                        personalized feed ready before you start your day.
+                    </li>
+                    <li>
+                        <strong>Flexible</strong>: You can easily adjust your
+                        research interests or try different LLM models to
+                        optimize the curation process.
+                    </li>
+                    <li>
+                        <strong>Resource-Friendly</strong>: ChiCurate can run on
+                        modest hardware, making it accessible to researchers
+                        without high-end computing resources.
+                    </li>
+                </ol>
+
+                <h2>How It Works</h2>
+
+                <p>ChiCurate combines two key technologies:</p>
+
+                <ol>
+                    <li>
+                        <strong>Local LLMs</strong>: Using Ollama, an
+                        open-source tool for running LLMs locally, ChiCurate
+                        analyzes paper titles (and potentially abstracts) to
+                        determine their relevance to your interests.
+                    </li>
+                    <li>
+                        <strong>RSS Feeds</strong>: The tool fetches the latest
+                        papers from ArXiv's RSS feeds, providing a structured
+                        and machine-readable interface for the LLM to process.
+                    </li>
+                </ol>
+
                 <p>
-                    See the
-                    <a href="https://github.com/CJones-Optics/ChiCurate"
-                        >ChiCurate GitHub
-                    </a>
-                    page for for install instructions. This page will be updated
-                    with a more detailed guide soon.
+                    By describing your research interests to the AI, you create
+                    a personalized algorithm that ranks papers based on their
+                    relevance to your work. This approach gives you the benefits
+                    of a curated feed while maintaining full control over the
+                    curation process.
+                </p>
+
+                <h2>Installation Guide</h2>
+
+                <p>To get started with ChiCurate, follow these steps:</p>
+
+                <ol>
+                    <li>
+                        <strong>Install Ollama</strong>:
+                        <ul>
+                            <li>
+                                For Linux:
+                                <code
+                                    >curl -fsSL https://ollama.com/install.sh |
+                                    sh</code
+                                >
+                            </li>
+                            <li>
+                                For Windows: Install WSL (Windows Subsystem for
+                                Linux) first, then follow the Linux instructions
+                            </li>
+                            <li>
+                                For MacOS: Download the dedicated installer from
+                                the Ollama website
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Pull the LLM Model</strong>:
+                        <pre><code>ollama pull mistral-nemo</code></pre>
+                    </li>
+                    <li>
+                        <strong>Install ChiCurate</strong>:
+                        <pre><code>git clone https://github.com/CJones-Optics/ArXivCurator.git
+                cd ./ArXivCurator
+                python3 -m venv .venv
+                source .venv/activate
+                pip install -r requirements.txt</code></pre>
+                    </li>
+                    <li>
+                        <strong>Configure ChiCurate</strong>:
+                        <ul>
+                            <li>
+                                Edit <code>./userData/feeds.csv</code> to
+                                include the ArXiv RSS feeds you're interested in
+                            </li>
+                            <li>
+                                Modify <code>./userData/userPrompt.txt</code> to
+                                describe your research interests
+                            </li>
+                            <li>
+                                Adjust <code>config.yaml</code> if needed (e.g.,
+                                to change the LLM model or batch size)
+                            </li>
+                        </ul>
+                    </li>
+                    <li>
+                        <strong>Run ArXiv Curator</strong>:
+                        <p>
+                            Execute <code>run.sh</code> to start the curation
+                            process
+                        </p>
+                    </li>
+                </ol>
+
+                <p>
+                    For optimal use, consider setting up a cron job to run
+                    ChiCurate automatically each morning.
+                </p>
+
+                <h2>Conclusion</h2>
+
+                <p>
+                    ChiCurate represents a significant step forward in managing
+                    the information overload faced by researchers. By combining
+                    the power of AI with the simplicity of RSS feeds, it offers
+                    a personalized, efficient, and open approach to staying
+                    current with the latest research in your field. Give it a
+                    try and experience a new way of exploring ArXiv!
                 </p>
             </main>
         </div>
