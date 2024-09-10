@@ -6,5 +6,4 @@
         - [] Write template for Headeer
         - [] Write template for Footer
         - [] Write template for side bar
-    - [] Add CSSS as a variable to Front Matter
-
+    - [X] Add CSS as a variable to Front Matter

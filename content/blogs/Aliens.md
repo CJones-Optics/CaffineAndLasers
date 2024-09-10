@@ -99,10 +99,6 @@ So quite simply, it is so quiet, because the aliens are not talking to
 us.
 
 # 1 Source
-
 Boyle, Latham. "On Interstellar Quantum Communication and the Fermi
 Paradox." arXiv, August 5, 2024.
 [https://doi.org/10.48550/arXiv.2408.02445](https://doi.org/10.48550/arXiv.2408.02445.).
-:::
-:::::
-::::::::

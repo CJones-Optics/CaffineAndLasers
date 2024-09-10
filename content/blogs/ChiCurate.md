@@ -95,6 +95,6 @@ To get started with ChiCurate, follow these steps:
 
 For optimal use, consider setting up a cron job to run ChiCurate
 automatically each morning.
-::::::::::
-::::::::::::
-:::::::::::::::
+
+**UPDATE: September 2024**
+Stay Tuned. I have made the program even more efficient :)
