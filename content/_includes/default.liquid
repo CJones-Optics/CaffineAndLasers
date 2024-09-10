@@ -1,0 +1,24 @@
+---
+title: Default Title
+css: /styles.css
+---
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <head><title>{{ title }}</title></head>
+    <link rel="stylesheet" href="{{css}}">
+</head>
+
+{% include "header.liquid" %}
+
+<div id="flex">
+
+<aside id="leftSidebar">{% include "sidebar.liquid" %}</aside>
+
+<main>{{ content }}</main>
+
+</div>
+{% include "footer.liquid" %}
+
+</html>
