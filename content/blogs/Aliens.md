@@ -1,6 +1,7 @@
 ---
 title: Where are all the aliens?
 layout: blogpost.liquid
+nesting: "../"
 ---
 # Where are all the aliens?
 
@@ -75,16 +76,17 @@ telescope on one end, and received by another telescope on the other.
 These laser beams of signal can then be passed through space with high
 accuracy, allowing most of the signal to land on target.
 
-![](\Assets\ClassicalComsvsQComms.svg){,="" width="100%"}
+![Classical Coms Vs Quantm Comms](ClassicalComsvsQComms.svg)
 
 This means that if all the aliens out there are communicating using
 Quantum communications:
 
-a.  They must have **extremely** narrow beams. So it is near impossible
+**a**.  They must have **extremely** narrow beams. So it is near impossible
     for any stray signal to hit us. Remember, the majority of the signal
     needs to hit the receiver, and any that hits us isn't hitting the
     receiver.
-b.  They must have **MASSIVE** telescopes to suck up all those photons.
+
+**b**.  They must have **MASSIVE** telescopes to suck up all those photons.
     And by massive, I don't mean hundreds of meters wide, or even a
     kilometre wide. In order to send a quantum signal between us and our
     closest neighbour, quantum information theory predicts you would

@@ -152,9 +152,3 @@ The LoFi Terminal Radio aims to provide a distraction-free,
 resource-efficient alternative to streaming background music. If you\'re
 looking for a minimalist approach to your work soundtrack, give it a
 try! Feedback and contributions are always welcome.
-:::
-:::::
-
-[![RSS
-Feed](/Assets/RSS_Logo.png){style="width: 20px; height: 20px"}](/feed.xml)
-::::::::

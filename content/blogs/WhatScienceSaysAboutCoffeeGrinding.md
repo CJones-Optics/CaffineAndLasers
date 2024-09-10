@@ -190,6 +190,3 @@ C., Leighton, S., Miller, B., Butler, K.T., Melot, B.C., Speirs, R.W.,
 Hendon, C.H., 2016. The effect of bean origin and temperature on
 grinding roasted coffee. Sci Rep 6, 24483.
 <https://doi.org/10.1038/srep24483>
-:::
-:::::
-::::::::

@@ -55,6 +55,18 @@ main {
     color: #8839eed64f5    font-weight: bold;
 }
 
+.code-block {
+    background-color: #f4f4f4;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    padding: 1em;
+    margin: 1em 0;
+    overflow-x: auto;
+    white-space: pre-wrap;
+    word-wrap: break-word;
+    font-family: monospace;
+}
+
 #header {
     width: 100%;
     background-color: #dc8a78;
@@ -127,6 +139,11 @@ main {
     padding: 20px;
     order: 2;
     margin: 10px;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
 }
 
 #leftSidebar {

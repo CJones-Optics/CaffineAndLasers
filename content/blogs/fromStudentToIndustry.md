@@ -170,6 +170,3 @@ some open-ended research project - Build something with an Arduino -
 Contribute to an Open-Source Software project - Finally, try your best
 to socialize with people outside of your department, make sure you get
 used to explaining your work and understanding the work of others.
-:::
-:::::
-::::::::

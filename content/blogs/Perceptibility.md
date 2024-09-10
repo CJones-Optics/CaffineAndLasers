@@ -145,8 +145,7 @@ these concepts of observability. The allegory is summarised :
     they would at first be confused and disbelieving.
 
 ![Plato\'s
-Cave](https://upload.wikimedia.org/wikipedia/commons/8/8d/An_Illustration_of_The_Allegory_of_the_Cave%2C_from_Plato%E2%80%99s_Republic.jpg "Plato's Cave"){,=""
-width="100%"}
+Cave](https://upload.wikimedia.org/wikipedia/commons/8/8d/An_Illustration_of_The_Allegory_of_the_Cave%2C_from_Plato%E2%80%99s_Republic.jpg "Plato's Cave")
 
 Copyright: Wikimedia Commons. 2018. Sharealike license
 
@@ -173,28 +172,28 @@ making an observation itself will affect the state of the thing we are
 observing. Mathematically this is expressed as:
 
 ![\\Delta x \\Delta p \\geq
-\\frac{\\hbar}{2}](https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%5CDelta%20x%20%5CDelta%20p%20%5Cgeq%20%5Cfrac%7B%5Chbar%7D%7B2%7D "\Delta x \Delta p \geq \frac{\hbar}{2}"){.math
-.display style="vertical-align: middle"}
+\\frac{\\hbar}{2}](https://latex.codecogs.com/png.latex?%5Cdisplaystyle%20%5CDelta%20x%20%5CDelta%20p%20%5Cgeq%20%5Cfrac%7B%5Chbar%7D%7B2%7D "\Delta x \Delta p \geq \frac{\hbar}{2}")
+
 
 This means, that the more precisely we know a particle\'s position
-![x](https://latex.codecogs.com/png.latex?%5Ctextstyle%20x "x"){.math
-.inline style="vertical-align: middle"}, the less precisely we know its
+![x](https://latex.codecogs.com/png.latex?%5Ctextstyle%20x "x")
+, the less precisely we know its
 momentum
-![p](https://latex.codecogs.com/png.latex?%5Ctextstyle%20p "p"){.math
-.inline style="vertical-align: middle"} and vice versa. This is because
+![p](https://latex.codecogs.com/png.latex?%5Ctextstyle%20p "p")
+and vice versa. This is because
 to figure out a particle\'s location, you need to interact with it in
 some way. This interaction affects its momentum.
 
 Quantum mechanics even encodes the act of observing as a mathematical
 operation, expressed as a bra
-![\\langle{O}\|](https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Clangle%7BO%7D%7C "\langle{O}|"){.math
-.inline style="vertical-align: middle"} and \"reality\" as a ket
-![\|{R}\\rangle](https://latex.codecogs.com/png.latex?%5Ctextstyle%20%7C%7BR%7D%5Crangle "|{R}\rangle"){.math
-.inline style="vertical-align: middle"}. The observation of reality is
+![\\langle{O}\|](https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Clangle%7BO%7D%7C "\langle{O}|")
+ and \"reality\" as a ket
+![\|{R}\\rangle](https://latex.codecogs.com/png.latex?%5Ctextstyle%20%7C%7BR%7D%5Crangle "|{R}\rangle")
+. The observation of reality is
 calculated as a probability by multiplying the two:
 ![\\langle{O}\|{R}\\rangle =
-p(O)](https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Clangle%7BO%7D%7C%7BR%7D%5Crangle%20%3D%20p%28O%29 "\langle{O}|{R}\rangle = p(O)"){.math
-.inline style="vertical-align: middle"}
+p(O)](https://latex.codecogs.com/png.latex?%5Ctextstyle%20%5Clangle%7BO%7D%7C%7BR%7D%5Crangle%20%3D%20p%28O%29 "\langle{O}|{R}\rangle = p(O)")
+
 
 # Concluding thoughts
 
@@ -210,6 +209,3 @@ either email me or hit me up on mastodon, because I am very interested
 to see where else it has come up. I hope to write a future blog post
 tying the concept of perceptibility to determinism and free will. So
 stay tuned for that!
-:::
-:::::
-::::::::

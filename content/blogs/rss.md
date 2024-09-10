@@ -45,7 +45,6 @@ replacing the bits I have in {brackets}
 
 ------------------------------------------------------------------------
 
-::: {#cb1 .sourceCode}
 ``` {.sourceCode .xml}
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
@@ -64,7 +63,6 @@ replacing the bits I have in {brackets}
 </channel>
 </rss>
 ```
-:::
 
 ------------------------------------------------------------------------
 
@@ -87,7 +85,6 @@ The template for each item:
 
 ------------------------------------------------------------------------
 
-::: {#cb2 .sourceCode}
 ``` {.sourceCode .xml}
   <item>
     <title>{Article Title}</title>
@@ -100,7 +97,6 @@ The template for each item:
     </pubDate>
   </item>
 ```
-:::
 
 ------------------------------------------------------------------------
 
@@ -114,7 +110,6 @@ In the end your RSS feed should look like this:
 
 ------------------------------------------------------------------------
 
-::: {#cb3 .sourceCode}
 ``` {.sourceCode .xml}
 <?xml version="1.0" encoding="UTF-8" ?>
 <rss version="2.0">
@@ -126,7 +121,7 @@ In the end your RSS feed should look like this:
     {Date and time in RFC 2822 format}
   </lastBuildDate>
   <ttl>{Number of minutes between refreshes}</ttl>
-  
+
   <!-- Above this is the header, below are each article -->
 
  <item>
@@ -157,7 +152,6 @@ In the end your RSS feed should look like this:
 </channel>
 </rss>
 ```
-:::
 
 ------------------------------------------------------------------------
 
@@ -180,9 +174,6 @@ Thats all you need! Don\'t forget to add a new item to your feed when
 you update your blog! No other maintenance needed. If anyone out there
 makes an old school 88x32 button to link to their RSS feed let me know!
 I really want one, but not enough to make it myself 😜
-::::::
-::::::::
 
-[![RSS
-Feed](/Assets/RSS_Logo.png){style="width: 20px; height: 20px"}](/feed.xml)
-:::::::::::
+
+![RSS Feed](/Assets/RSS_Logo.png)

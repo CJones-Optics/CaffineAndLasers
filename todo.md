@@ -1,9 +1,11 @@
 
-    - [] Formatting
-        - [] Fix File linkng in blogs
-        - [] Fix Text Formatting in blogs
-    - [] Templates
-        - [] Write template for Headeer
-        - [] Write template for Footer
-        - [] Write template for side bar
+    - [X] Formatting
+        - [X] Fix File linkng in blogs
+        - [X] Fix Text Formatting in blogs
+    - [X] Templates
+        - [X] Write template for Headeer
+        - [X] Write template for Footer
+        - [X] Write template for Side Bar
+        - [X] Write template for blog
+        - [X] Write template for default
     - [X] Add CSS as a variable to Front Matter

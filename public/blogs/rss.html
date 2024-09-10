@@ -96,7 +96,6 @@ end in <code>.xml</code> since that is the file-type. Mine is simply called
 <p>The structure of you feed should look like this, with your own info
 replacing the bits I have in {brackets}</p>
 <hr>
-<p>::: {#cb1 .sourceCode}</p>
 <pre><code class="language-{.sourceCode">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
 &lt;rss version=&quot;2.0&quot;&gt;
 &lt;channel&gt;
@@ -114,7 +113,6 @@ replacing the bits I have in {brackets}</p>
 &lt;/channel&gt;
 &lt;/rss&gt;
 </code></pre>
-<p>:::</p>
 <hr>
 <p>RFC 2822 Timestamps look like this: <code>Thu, 08 Aug 2024 23:52:25 +0000</code>
 And can easily be generated from this website:
@@ -129,7 +127,6 @@ hammered with too much traffic.</p>
 it!</p>
 <p>The template for each item:</p>
 <hr>
-<p>::: {#cb2 .sourceCode}</p>
 <pre><code class="language-{.sourceCode">  &lt;item&gt;
     &lt;title&gt;{Article Title}&lt;/title&gt;
     &lt;description&gt;
@@ -141,7 +138,6 @@ it!</p>
     &lt;/pubDate&gt;
   &lt;/item&gt;
 </code></pre>
-<p>:::</p>
 <hr>
 <p>Each item goes in between the <code>ttl</code> tag and the <code>&lt;\channel&gt;</code> tag. Every
 time you add an article, don't forget to update the <code>&lt;lastBuildDate&gt;</code>
@@ -149,7 +145,6 @@ tag.</p>
 <h2>2.3 Putting it all together:</h2>
 <p>In the end your RSS feed should look like this:</p>
 <hr>
-<p>::: {#cb3 .sourceCode}</p>
 <pre><code class="language-{.sourceCode">&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot; ?&gt;
 &lt;rss version=&quot;2.0&quot;&gt;
 &lt;channel&gt;
@@ -160,7 +155,7 @@ tag.</p>
     {Date and time in RFC 2822 format}
   &lt;/lastBuildDate&gt;
   &lt;ttl&gt;{Number of minutes between refreshes}&lt;/ttl&gt;
-  
+
   &lt;!-- Above this is the header, below are each article --&gt;
 
  &lt;item&gt;
@@ -191,7 +186,6 @@ tag.</p>
 &lt;/channel&gt;
 &lt;/rss&gt;
 </code></pre>
-<p>:::</p>
 <hr>
 <p>Check out my RSS for a full example. of what the text looks like.</p>
 <h2>2.4 Linking the to the RSS Feed</h2>
@@ -206,12 +200,8 @@ into your RSS Reader to subscribe to me 😉.</p>
 <p>Thats all you need! Don't forget to add a new item to your feed when
 you update your blog! No other maintenance needed. If anyone out there
 makes an old school 88x32 button to link to their RSS feed let me know!
-I really want one, but not enough to make it myself 😜
-::::::
-::::::::</p>
-<p><a href="/feed.xml"><img src="/Assets/RSS_Logo.png" alt="RSS
-Feed">{style=&quot;width: 20px; height: 20px&quot;}</a>
-:::::::::::</p>
+I really want one, but not enough to make it myself 😜</p>
+<p><img src="/Assets/RSS_Logo.png" alt="RSS Feed"></p>
 </main>
 
 </div>

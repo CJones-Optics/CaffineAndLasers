@@ -140,7 +140,7 @@ Optics](https://www.meadowlark.com/3d-holographic-optical-tweezing-kit/).
 You can see a demonstration below, where particles only 4.5 micrometers
 are being manipluated by such a device. ![A microscope photograph of
 microparticels aranged as numbers
-1-9](HolographicOpticalTweezers.png){<="" p=""}
+1-9](HolographicOpticalTweezers.png)
 
 ## 3.2 Spy Stuff
 
@@ -164,6 +164,3 @@ I hope you enjoyed this short introduction to my niche area of interest.
 There are plenty of cool applications for LCoS in the world of research
 and engineering, and if you ever get the chance to work with the, I
 would highly recommend it.
-:::
-:::::
-::::::::
