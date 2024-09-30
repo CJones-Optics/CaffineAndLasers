@@ -1,5 +1,5 @@
 ---
-title: Where are all the aliens?
+title: The Case For Power CoOps
 layout: blogpost.liquid
 nesting: "../"
 ---
