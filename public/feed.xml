@@ -4,8 +4,19 @@
   <title>Caffeine And Lasers</title>
   <description>Musings Powered By Caffeine and Lasers</description>
   <link>https://Caffeineandlasers.neocities.org</link>
-  <lastBuildDate>Mon, 30 Sep 2024 09:16:09 +1000</lastBuildDate>
+  <lastBuildDate>Mon, 18 Nov 2024 09:57:01 +1000</lastBuildDate>
   <ttl>1440</ttl>
+
+  <item>
+    <title>Introducing ChiScraper</title>
+    <description>ChiScraper is an open-source tool that helps researchers take control of their ArXiv experience by combining 
+    a powerful keyword matching algorithm with LLM-powered ranking. Instead of wading through endless papers, Chi-scraper 
+    shows you what's relevant to your research interests and ranks them by importance. It's like having a personal research 
+    assistant that pre-screens papers before your morning coffee.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/ChiScraperIntroduction.html</link>
+    <pubDate>Mon, 18 Nov 2024 09:57:01 +1000</pubDate>
+
+  </item>
 
   <item>
     <title>The Case For Power Generation Cooperatives</title>
