@@ -4,8 +4,17 @@
   <title>Caffeine And Lasers</title>
   <description>Musings Powered By Caffeine and Lasers</description>
   <link>https://Caffeineandlasers.neocities.org</link>
-  <lastBuildDate>Mon, 18 Nov 2024 09:57:01 +1000</lastBuildDate>
+  <lastBuildDate>Thu, 27 Nov 2024 09:57:01 +1000</lastBuildDate>
   <ttl>1440</ttl>
+
+  <item>
+  <title>Using RSS to De-Enshittify Reddit</title>
+  <description> Woah, an RSS feed about RSS. How to Escape Reddits' Enshittified Torment Nexus™️ of Reddit with RSS!
+  </description>
+  <link>https://Caffeineandlasers.neocities.org/blogs/UsingRSSRSSforReddit.html</link>
+  <pubDate>Thu, 27 Nov 2024 09:57:01 +1000</pubDate>
+
+  </item>
 
   <item>
     <title>Introducing ChiScraper</title>
@@ -15,7 +24,6 @@
     assistant that pre-screens papers before your morning coffee.</description>
     <link>https://Caffeineandlasers.neocities.org/blogs/ChiScraperIntroduction.html</link>
     <pubDate>Mon, 18 Nov 2024 09:57:01 +1000</pubDate>
-
   </item>
 
   <item>
