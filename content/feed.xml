@@ -8,6 +8,13 @@
   <ttl>1440</ttl>
 
   <item>
+    <title>Keep Your Ego In Check (Above The Robots)</title>
+    <description> How do you use AI for writinng? Keep it in its place.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/KeepYourEgoInCheck(AboveTheAI).html</link>
+    <pubDate>Wed, 15 Jan 2025 18:00:00 +1000</pubDate>
+    </item>
+
+  <item>
   <title>Using RSS to De-Enshittify Reddit</title>
   <description> Woah, an RSS feed about RSS. How to Escape Reddits' Enshittified Torment Nexus™️ of Reddit with RSS!
   </description>
@@ -18,9 +25,9 @@
 
   <item>
     <title>Introducing ChiScraper</title>
-    <description>ChiScraper is an open-source tool that helps researchers take control of their ArXiv experience by combining 
-    a powerful keyword matching algorithm with LLM-powered ranking. Instead of wading through endless papers, Chi-scraper 
-    shows you what's relevant to your research interests and ranks them by importance. It's like having a personal research 
+    <description>ChiScraper is an open-source tool that helps researchers take control of their ArXiv experience by combining
+    a powerful keyword matching algorithm with LLM-powered ranking. Instead of wading through endless papers, Chi-scraper
+    shows you what's relevant to your research interests and ranks them by importance. It's like having a personal research
     assistant that pre-screens papers before your morning coffee.</description>
     <link>https://Caffeineandlasers.neocities.org/blogs/ChiScraperIntroduction.html</link>
     <pubDate>Mon, 18 Nov 2024 09:57:01 +1000</pubDate>
