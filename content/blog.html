@@ -9,12 +9,14 @@ Welcome to my blog. New updates every time I feel like it.
 through the RSS feed
 <a href="feed.xml"> <img src="\Assets\rss-button.gif" /> </a>
 
-<ul>
-{% for post in collections.blogPosts %}
-  <li>
-    <a href="{{ post.url }}">
-      {{ post.date | date: "%Y-%m-%d" }}: {{ post.data.title }}
-    </a>
-  </li>
-{% endfor %}
-</ul>
+<div class="blog-posts-container">
+  <ul>
+  {% for post in collections.blogPosts %}
+    <li>
+      <a href="{{ post.url }}">
+        {{ post.date | date: "%Y-%m-%d" }}: {{ post.data.title }}
+      </a>
+    </li>
+  {% endfor %}
+  </ul>
+</div>
