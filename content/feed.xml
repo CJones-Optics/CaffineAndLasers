@@ -4,14 +4,21 @@
   <title>Caffeine And Lasers</title>
   <description>Musings Powered By Caffeine and Lasers</description>
   <link>https://Caffeineandlasers.neocities.org</link>
-  <lastBuildDate>Fri, 24 Jan 2025 18:00:00 +1000</lastBuildDate>
+  <lastBuildDate>Sun, 16 Mar 2025 18:00:00 +1000</lastBuildDate>
   <ttl>1440</ttl>
+
+ <item>
+    <title>How I do my Reseach (As a PhD Student)</title>
+    <description> Yet another PhD student explains their personal knowledge management system.</description>
+    <link>https://Caffeineandlasers.neocities.org/blogs/How_I_do_my_Research(As_a_PhD_Student).html</link>
+    <pubDate>Fri, 24 Jan 2025 18:00:00 +1000</pubDate>
+    </item>
 
   <item>
     <title>Wireless Plant Monitor</title>
     <description>Just a quick write-up about my current side project (distraction).</description>
     <link>https://Caffeineandlasers.neocities.org/blogs/20250124PlantMonitorPrototypeUpdate.html</link>
-    <pubDate>Fri, 24 Jan 2025 18:00:00 +1000</pubDate>
+    <pubDate>Sun, 16 Mar 2025 18:00:00 +1000</pubDate>
     </item>
 
   <item>
