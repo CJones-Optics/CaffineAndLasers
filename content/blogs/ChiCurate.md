@@ -1,5 +1,6 @@
 ---
 title: ChiCurate
+date: 2024-11-17
 layout: blogpost.liquid
 ---
 # Introducing ChiCurate: Your Personalized ArXiv Feed

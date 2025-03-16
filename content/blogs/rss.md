@@ -1,5 +1,6 @@
 ---
 title: RSS
+date: 2024-08-09
 layout: blogpost.liquid
 ---
 # 1 What Is RSS and why might your readers want it?

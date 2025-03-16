@@ -1,5 +1,6 @@
 ---
 title: Perceptibility
+date: 2024-08-05
 layout: blogpost.liquid
 ---
 # Observing the observer: Perception in Philosophy Psychology and Physics

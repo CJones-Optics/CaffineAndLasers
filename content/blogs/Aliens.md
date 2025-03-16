@@ -1,5 +1,6 @@
 ---
 title: Where are all the aliens?
+date: 2024-09-30
 layout: blogpost.liquid
 nesting: "../"
 ---

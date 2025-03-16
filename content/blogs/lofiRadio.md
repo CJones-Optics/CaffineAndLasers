@@ -1,5 +1,6 @@
 ---
 title: LoFi Terminal
+date: 2024-08-11
 layout: blogpost.liquid
 ---
 # 1 Announcing My LoFi Terminal Radio

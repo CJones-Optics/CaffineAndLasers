@@ -1,5 +1,6 @@
 ---
 title: The Case For Power CoOps
+date: 2024-09-30
 layout: blogpost.liquid
 nesting: "../"
 ---

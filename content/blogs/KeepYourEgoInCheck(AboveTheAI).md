@@ -1,5 +1,6 @@
 ---
 title: Keep Your Ego In Check (Above The Robots)
+date: 2025-01-15
 layout: blogpost.liquid
 nesting: "../"
 ---

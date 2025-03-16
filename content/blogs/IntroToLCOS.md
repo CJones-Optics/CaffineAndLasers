@@ -1,5 +1,6 @@
 ---
 title: An Introduction To LCOS
+date: 2024-08-01
 layout: blogpost.liquid
 ---
 

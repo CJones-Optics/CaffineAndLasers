@@ -1,5 +1,6 @@
 ---
 title: Introducing ChiScraper
+date: 2024-11-18
 layout: blogpost.liquid
 nesting: "../"
 ---

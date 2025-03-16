@@ -1,5 +1,6 @@
 ---
 title: Plant Monitor Prototype Update
+date: 2025-01-24
 layout: blogpost.liquid
 ---
 

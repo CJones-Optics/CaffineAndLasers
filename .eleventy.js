@@ -2,6 +2,13 @@ module.exports = function (eleventyConfig) {
   // This makes the eleventy command quieter (with less detail)
   eleventyConfig.setQuietMode(true);
 
+  // Add a collection for blog posts
+  eleventyConfig.addCollection("blogPosts", function(collectionApi) {
+    return collectionApi.getFilteredByGlob("content/blogs/*.{html,md}").sort((a, b) => {
+      return b.date - a.date; // Sort in reverse chronological order (newest first)
+    });
+  });
+
   // This will stop the default behaviour of foo.html being turned into foo/index.html
   eleventyConfig.addGlobalData("permalink", "{{ page.filePathStem }}.html");
 

@@ -9,82 +9,12 @@ Welcome to my blog. New updates every time I feel like it.
 through the RSS feed
 <a href="feed.xml"> <img src="\Assets\rss-button.gif" /> </a>
 
-<li>
-    <a href="blogs/How_I_do_my_Research(As_a_PhD_Student).html"
-        >2025-03-16: How I do my Research (As a PhD Student)
+<ul>
+{% for post in collections.blogPosts %}
+  <li>
+    <a href="{{ post.url }}">
+      {{ post.date | date: "%Y-%m-%d" }}: {{ post.data.title }}
     </a>
-</li>
-
-<li>
-    <a href="blogs/20250124PlantMonitorPrototypeUpdate.html"
-        >2025-01-24: Wireless Plant Monitor Prototype Update
-    </a>
-</li>
-<li>
-    <a href="blogs/KeepYourEgoInCheck(AboveTheAI).html"
-        >2025-01-15: Keep Your Ego In Check (above the robots)
-    </a>
-</li>
-
-<li>
-    <a href="blogs/RSSforReddit.html"
-        >2024-11-27: Using RSS to De-Enshittify Reddit
-    </a>
-</li>
-
-<li>
-    <a href="blogs/ChiScraperIntroduction.html"
-        >2024-November-18: Introducing ChiScraper
-    </a>
-</li>
-
-<li>
-    <a href="blogs/TheCaseForPowerCoOps.html">
-        2024-September-30: The Case For Power Co-Ops
-    </a>
-</li>
-
-<li>
-    <a href="blogs/Aliens.html">
-        2024-September-05: Where are all the Aliens? And Why Arn't they talking
-        to us.
-    </a>
-</li>
-
-<li>
-    <a href="blogs/WhatScienceSaysAboutCoffeeGrinding.html"
-        >2024-August-30: What Science Say About Coffee Grinding</a
-    >
-</li>
-<li>
-    <a href="blogs/lofiRadio.html"
-        >2024-August-11: Introducing the LoFI Radio Project
-    </a>
-</li>
-
-<li>
-    <a href="blogs/rss.html"
-        >2024-August-9: How to create your very own RSS feed
-    </a>
-</li>
-
-<li>
-    <a href="blogs/Perceptibility.html"
-        >2024-August-5: Observing the observer: Perception in Philosophy
-        Psychology and Physics
-    </a>
-</li>
-
-<li>
-    <a href="blogs/IntroToLCOS.html"
-        >2024-August-01: An introduction to LCOS Spatial Light Modulators</a
-    >
-</li>
-<li>
-    <a href="blogs/20240725T075059.html">2024-July-26: Anatomy Of Espresso</a>
-</li>
-<li>
-    <a href="blogs/fromStudentToIndustry.html"
-        >2022-August-04: From Student To Industry</a
-    >
-</li>
+  </li>
+{% endfor %}
+</ul>
