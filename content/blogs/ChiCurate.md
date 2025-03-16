@@ -1,6 +1,7 @@
 ---
 title: ChiCurate
 date: 2024-11-17
+description: Introducing ChiCurate, an open-source tool designed to help researchers streamline their ArXiv experience by combining keyword matching with LLM-powered ranking.
 layout: blogpost.liquid
 ---
 # Introducing ChiCurate: Your Personalized ArXiv Feed

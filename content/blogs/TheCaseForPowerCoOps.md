@@ -1,6 +1,7 @@
 ---
 title: The Case For Power CoOps
 date: 2024-09-30
+description: "Exploring the potential of supplier cooperatives in the power generation industry, particularly with the rise of solar panels and battery storage."
 layout: blogpost.liquid
 nesting: "../"
 ---

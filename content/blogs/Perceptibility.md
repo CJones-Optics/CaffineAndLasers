@@ -1,6 +1,7 @@
 ---
 title: Perceptibility
 date: 2024-08-05
+description: "Exploring the intersection of philosophy, psychology, and physics in understanding perception and the self."
 layout: blogpost.liquid
 ---
 # Observing the observer: Perception in Philosophy Psychology and Physics

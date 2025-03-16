@@ -9,6 +9,12 @@ module.exports = function (eleventyConfig) {
     });
   });
 
+  // Add date filter for RSS
+  eleventyConfig.addFilter("dateToRfc822", function(date) {
+    return new Date(date).toUTCString();
+  });
+  
+
   // This will stop the default behaviour of foo.html being turned into foo/index.html
   eleventyConfig.addGlobalData("permalink", "{{ page.filePathStem }}.html");
 

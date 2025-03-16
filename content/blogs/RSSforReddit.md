@@ -1,6 +1,7 @@
 ---
 title: RSS For Reddit
 date: 2024-01-15
+description: Learn how to use RSS to improve your Reddit experience by subscribing to subreddits anonymously and avoiding the Infinite Sludge Algorithm.
 layout: blogpost.liquid
 ---
 

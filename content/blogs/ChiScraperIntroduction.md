@@ -2,6 +2,7 @@
 title: Introducing ChiScraper
 date: 2024-11-18
 layout: blogpost.liquid
+description: Introducing ChiScraper, an open-source tool designed to help researchers streamline their ArXiv experience by combining keyword matching with LLM-powered ranking.
 nesting: "../"
 ---
 

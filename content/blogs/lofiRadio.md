@@ -1,6 +1,7 @@
 ---
 title: LoFi Terminal
 date: 2024-08-11
+description: "A minimalist audio player that does its job without any frills."
 layout: blogpost.liquid
 ---
 # 1 Announcing My LoFi Terminal Radio

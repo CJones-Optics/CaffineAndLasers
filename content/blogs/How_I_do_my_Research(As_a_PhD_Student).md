@@ -2,6 +2,7 @@
 title: How I do My Research (As a PhD Student)
 date: 2025-03-16
 layout: blogpost.liquid
+description: Yet another PhD student explains their personal knowledge management system.
 nesting: "../"
 ---
 

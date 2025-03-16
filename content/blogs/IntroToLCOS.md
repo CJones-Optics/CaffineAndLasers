@@ -1,6 +1,7 @@
 ---
 title: An Introduction To LCOS
 date: 2024-08-01
+description: An introduction to Liquid Crystal on Silicon (LCOS) technology, covering its principles, applications, and the author's personal experience working with it.
 layout: blogpost.liquid
 ---
 
