@@ -168,3 +168,12 @@ Here you can see where I can start with a fuzzy, half remembered idea, and quick
 With any hope, this lets me do research and close the loop!
 
 ![](/Assets/PKM_Flowchart.png)
+
+# Conclusions
+This is just a broad overview of physically **HOW** I do my research.
+Maybe at some point later I will dive deeper into my philosphy of what deserves
+a note and how I go about learning. But that is for another  time.
+
+This post was more inspried by the typical "Here is the tools I use" kind of posts
+you see on other folks personal web pages. I hope you found it interesting, and
+if you feel like chatting ping me an email or connnect on Mastodon!
